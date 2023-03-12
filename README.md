@@ -1,3 +1,16 @@
+Форма бронирования посуточная и почасвая для Wordpress с возможностью онлайн оплаты через yookassa.
+
+Для установки:
+
+1) скопировать файл wp_react_reservation/insert_in_Wordpress/pay.php в корень сайта, ввести свой api key из админ панели yookassa
+
+2) скопировать папку wp_react_reservation/insert_in_Wordpress/template_folder/reservation_engine/ в папку активной темы Wordpress
+
+3) подключить в конце файла functions.php файл init.php добавив строку "require('reservation_engine/init_reservation/init.php');"
+
+4) пройтись по всем файлам поменять во всех fetch запросах "your_site.com" на свой сайт
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
