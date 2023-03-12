@@ -10,6 +10,8 @@
 
 4) пройтись по всем файлам поменять во всех fetch запросах "your_site.com" на свой сайт
 
+5) сбилдить приложение "npm run build" добавить в шаблон wordpress  
+
 
 # Getting Started with Create React App
 
