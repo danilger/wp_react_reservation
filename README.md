@@ -1,5 +1,7 @@
 Форма бронирования посуточная и почасвая для Wordpress с возможностью онлайн оплаты через yookassa.
 
+![alt text](https://raw.githubusercontent.com/danilger/wp_react_reservation/master/screen.jpg)
+
 Для установки:
 
 1) скопировать файл wp_react_reservation/insert_in_Wordpress/pay.php в корень сайта, ввести свой api key из админ панели yookassa
