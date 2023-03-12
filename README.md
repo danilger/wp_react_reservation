@@ -1,18 +1,22 @@
 Форма бронирования посуточная и почасвая для Wordpress с возможностью онлайн оплаты через yookassa.
 
 ![alt text](https://raw.githubusercontent.com/danilger/wp_react_reservation/master/screen.jpg)
+![alt text](https://raw.githubusercontent.com/danilger/wp_react_reservation/master/screen_wp.jpg)
 
 Для установки:
 
-1) скопировать файл wp_react_reservation/insert_in_Wordpress/pay.php в корень сайта, ввести свой api key из админ панели yookassa
+1) установить Advanced Custom Fields PRO плагин в Wordpress, импортировать поля из файла wp_react_reservation/insert_in_Wordpress/acf-export-2023-03-12.json или acf-export-2023-03-12.php
 
-2) скопировать папку wp_react_reservation/insert_in_Wordpress/template_folder/reservation_engine/ в папку активной темы Wordpress
+2) скопировать файл wp_react_reservation/insert_in_Wordpress/pay.php в корень сайта, ввести свой api key из админ панели yookassa
 
-3) подключить в конце файла functions.php файл init.php добавив строку "require('reservation_engine/init_reservation/init.php');"
+3) скопировать папку wp_react_reservation/insert_in_Wordpress/template_folder/reservation_engine/ в папку активной темы Wordpress
 
-4) пройтись по всем файлам поменять во всех fetch запросах "your_site.com" на свой сайт
+4) подключить в конце файла functions.php файл init.php добавив строку "require('reservation_engine/init_reservation/init.php');"
 
-5) сбилдить приложение "npm run build" добавить в шаблон wordpress  
+5) пройтись по всем файлам поменять во всех fetch запросах "your_site.com" на свой сайт
+
+6) сбилдить приложение "npm run build" добавить в шаблон wordpress
+ 
 
 
 # Getting Started with Create React App
