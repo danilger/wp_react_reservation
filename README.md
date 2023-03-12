@@ -1,9 +1,9 @@
-Форма бронирования посуточная и почасвая для Wordpress с возможностью онлайн оплаты через yookassa.
+<h1>Форма бронирования посуточная и почасвая для Wordpress с возможностью онлайн оплаты через yookassa.</h1>
 
 ![alt text](https://raw.githubusercontent.com/danilger/wp_react_reservation/master/screen.jpg)
 ![alt text](https://raw.githubusercontent.com/danilger/wp_react_reservation/master/screen_wp.jpg)
 
-Для установки:
+<h2>Для установки:</h2>
 
 1) установить Advanced Custom Fields PRO плагин в Wordpress, импортировать поля из файла wp_react_reservation/insert_in_Wordpress/acf-export-2023-03-12.json или acf-export-2023-03-12.php
 
